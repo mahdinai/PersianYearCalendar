@@ -1,0 +1,105 @@
+
+	.mahdinaseri_yearview_header {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-color: #ddd;
+    margin-top: 15px;
+}td.day.day7 {
+    color: red;
+}
+
+    .mahdinaseri_yearview_header p {
+        text-align: center;
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .mahdinaseri_yearview_header .glyphicon-chevron-left {
+        font-size: 25px;
+        position: absolute;
+        left: 10px;
+        margin: 10px;
+    }
+
+    .mahdinaseri_yearview_header .glyphicon-chevron-right {
+        font-size: 25px;
+        position: absolute;
+        right: 10px;
+        margin: 10px;
+    }
+
+.mahdinaseri_yearview .day:hover {
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.yearview td, th {
+    padding: 5px;
+}
+
+.yearview table {
+    width: 100%;
+    table-layout: fixed;
+    direction: rtl;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.mahdinaseri_yearview.col-md-3 .a {
+    height: 310px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-color: #dddddd;
+}
+
+.yearview span.glyphicon.glyphicon-chevron-right.mprev:hover, span.glyphicon.glyphicon-chevron-left.mnext:hover {
+    color: #c7a812;
+    cursor: pointer;
+}
+
+.yearview .current_day {
+    background: #ecc713;
+    border-radius: 100%;
+    color: black;
+}
+
+.yearview thead {
+    font-weight: 700;
+}
+
+.yearview .col-xs-3 {
+    margin-bottom: 15px;
+}
+
+.yearview .table-responsive {
+    overflow-x: visible;
+}
+
+.mahdinaseri_yearview_header.col-md-12 {
+    font-family: tahoma;
+}
+.mahdinaseri_yearview {
+    margin-bottom: 15px;
+    min-width: 180px;
+    text-align: center;
+    height: 326px;
+}
+
+.yearview .table > tbody > tr > td {
+    border: 0;
+}

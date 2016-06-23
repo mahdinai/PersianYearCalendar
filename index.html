@@ -1,0 +1,27 @@
+﻿<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>PersianYearCalendar</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+	<link rel="stylesheet" href="css/PersianYearCalendar.css">
+	<script src="js/PersianYearCalendar.js"></script>
+
+	</head>
+	<body>
+	<div class="persianyearcalendar yearview table-responsive"></div>
+
+		<script type="text/javascript">
+		
+
+		jQuery(".persianyearcalendar").mahdinaseri_calendar({
+			empty_box: "*",
+			classname:".persianyearcalendar",
+            DayonClick: function (date) {
+               alert(date);
+            }
+        });
+		</script>
+		
+	</body>
+</html>
