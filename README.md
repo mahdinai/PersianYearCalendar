@@ -29,6 +29,7 @@
 3- call the persianyearcalendar plugin
 
 ``` html
+
 <script type="text/javascript">
 		
 		jQuery(".persianyearcalendar").mahdinaseri_calendar({
@@ -36,14 +37,16 @@
         });
         
 </script>
+
 ```
 
 #### Options
 
 ``` html
+
   <script>
 
-        jQuery(".mahdinaseri_calendar").mahdinaseri_calendar({
+        jQuery(".persianyearcalendar").mahdinaseri_calendar({
             empty_box: "*",
             current_day: 2,
             current_month: 5,
