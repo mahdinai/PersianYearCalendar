@@ -47,11 +47,12 @@
   <script>
 
         jQuery(".persianyearcalendar").mahdinaseri_calendar({
-            empty_box: "*",
-            current_day: 2,
-            current_month: 5,
-            current_year: 1395,
-            DayonClick: function (date) {
+	       	classname:".persianyearcalendar"
+	        empty_box: "*",
+	        current_day: 2,
+	        current_month: 5,
+	        current_year: 1395,
+	        DayonClick: function (date) {
             }
         });
     </script>
